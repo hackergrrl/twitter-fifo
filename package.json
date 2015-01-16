@@ -1,0 +1,20 @@
+{
+  "name": "twitter-fifo",
+  "version": "1.0.0",
+  "description": "Named pipes for interacting with your Twitter stream.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "fifo"
+  ],
+  "author": "Stephen Whitmore",
+  "homepage": "https://github.com/noffle/twitter-fifo",
+  "license": "MIT",
+  "dependencies": {
+    "mkfifo": "0.0.1",
+    "twit": "^1.1.19"
+  }
+}
