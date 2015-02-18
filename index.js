@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var Twit = require('twit');
 var mkfifo = require('mkfifo').mkfifoSync;
 var fs = require('fs');
