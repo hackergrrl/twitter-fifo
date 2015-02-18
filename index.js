@@ -2,8 +2,15 @@ var Twit = require('twit');
 var mkfifo = require('mkfifo').mkfifoSync;
 var fs = require('fs');
 
-var client = new Twit(require('./config'));
 
+if (!fs.existsSync('config.js')) {
+  console.error("No 'config.js' found.");
+  console.error();
+  console.error("Copy and update 'example_config.js' with your Twitter API credentials.");
+  return;
+}
+
+var client = new Twit(require('./config'));
 
 // Get screen name (for dir name)
 var screenName;

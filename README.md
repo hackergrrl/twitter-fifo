@@ -1,11 +1,32 @@
 # twitter-fifo
 
-Not yet ready for public consumption. Create an issue if you'd like to
-contribute pre-release or discuss.
+Command line Twitter client that enables interacting with Twitter via named pipes.
 
-# TODO
+## Usage
 
- * look for `config.js` in current directory
- * appropriate warning + exit when `config.js` isn't found
-   * bonus points if you route them to where they can read more re: setup on twitter
+### Install
+
+```
+npm install -g twitter-fifo
+```
+
+### Setup
+
+Copy `example_config.js` to `config.js` and fill in your Twitter API
+credentials.
+
+### Usage
+
+```
+$ mkdir my-twitter-working-dir
+
+$ cd my-twitter-working-dir
+
+$ twitter-fifo &
+
+$ cat @noffle/timeline
+@andmish: making new set for new level #gamedev #unity3d
+@nodeschool: NodeSchool International Day and new workshops on npm and ES6 generators
+...
+```
 
