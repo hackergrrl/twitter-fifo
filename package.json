@@ -2,7 +2,9 @@
   "name": "twitter-fifo",
   "version": "1.0.0",
   "description": "Named pipes for interacting with your Twitter stream.",
-  "main": "index.js",
+  "bin": {
+    "twitter-fifo": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +12,11 @@
     "twitter",
     "fifo"
   ],
-  "author": "Stephen Whitmore",
+  "author": {
+    "name": "Stephen Whitmore",
+    "email": "sww@eight45.net",
+    "url": "http://www.stephenwhitmore.com"
+  },
   "homepage": "https://github.com/noffle/twitter-fifo",
   "license": "MIT",
   "dependencies": {
