@@ -30,3 +30,11 @@ $ cat @noffle/timeline
 ...
 ```
 
+## Limitations
+
+Currently only the `timeline` pipe is available. Coming soon:
+
+ * Tweeting by writing to a `tweet` file
+ * `following` and `followers` files
+ * More! File an issue or send a pull request!
+
