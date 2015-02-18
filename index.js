@@ -4,7 +4,7 @@ var fs = require('fs');
 
 var client = new Twit(require('./config'));
 
-// TODO(sww): promises might make this more pleasant
+
 // Get screen name (for dir name)
 var screenName;
 var timeline;
@@ -36,13 +36,13 @@ client.get('account/verify_credentials', function(err, res) {
     var stream = client.stream('user');
     stream.on('tweet', function (tweet) {
       timeline.write('@' + tweet.user.screen_name + ': ' + tweet.text + '\n');
-      console.log('tweet');
+      // console.error('tweet');
     })
     stream.on('connected', function() {
-      console.log('connected');
+      // console.error('connected');
     });
     stream.on('disconnect', function() {
-      console.log('disconnected');
+      // console.error('disconnected');
     });
     stream.on('friends', function(msg) {
       // console.dir(msg.friends);
