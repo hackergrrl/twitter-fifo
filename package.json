@@ -1,6 +1,6 @@
 {
   "name": "twitter-fifo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Named pipes for interacting with your Twitter stream.",
   "bin": {
     "twitter-fifo": "./index.js"
