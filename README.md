@@ -25,8 +25,11 @@ $ cd my-twitter-working-dir
 $ twitter-fifo &
 
 $ cat @noffle/timeline
-@andmish: making new set for new level #gamedev #unity3d
-@nodeschool: NodeSchool International Day and new workshops on npm and ES6 generators
+@ragzouken: aaaa http://t.co/wgoHdlAVgf
+@ragzouken: hint for this boss "try to save your magic for healing, you'll need
+it!" hm well i hope they do less than 6 damage per turn
+@GamingInColor: RT @GaymerX: game review commenters: stayin' classy since 1998
+http://t.co/5xfKrzIkFC
 ...
 ```
 
